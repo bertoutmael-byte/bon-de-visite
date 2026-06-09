@@ -1,3 +1,15 @@
-node_modules/
-data.json
-.env
+{
+  "name": "bon-de-visite-safti",
+  "version": "1.0.0",
+  "description": "Bons de visite électroniques SAFTI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
